@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link class="logo" rel="icon" href="tast and twist.jpg" type="image/x-icon" hight="10px">
+    <title> Taste & Twist - Registration </title>
+    
+  
+</head>
+<body>
+    <audio id="backgroundMusic" src="ages-ago-brock-hewitt-stories-in-sound-main-version-16212-04-06.mp3" autoplay loop ></audio> <!-- Background music -->
+    
+    <div class="registration-container">
+        <img src="tast and twist.jpg" alt="Taste & Twist Logo" class="logo"> <!-- Add your logo here -->
+        <h1>Taste & Twist</h1>
+        
+        <button id="toggleMusic">Play Music</button> <!-- Play/Pause Button -->
+
+        <form id="registrationForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Name..">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Email..">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Password..">
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="confirmPassword..">
+
+            <label class="terms">
+                <input class="u" type="checkbox" id="terms" required>
+                I agree to the <a href="#">Terms and Conditions</a>
+            </label>
+
+            <button type="submit" onclick="ll()" >Register</button>
+            
+        </form>
+    </div>
+
+    <!-- Adding animated particles -->
+    <script src="ragestor.js"></script>
+</body>
+</html>
